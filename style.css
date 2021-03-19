@@ -1,0 +1,436 @@
+@font-face { font-family: Gotham; src: url('gothamhtf-book-webfont.ttf'); } 
+@font-face { font-family: Gotham; font-weight: bold; src: url('gothamhtf-bold-webfont.ttf');}
+
+.container-1{
+    max-width: 100%;
+    height: auto;
+    background-image: url("assets/img/bg-1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.container-1 img{
+    visibility: hidden;
+    max-width: 100%;
+    height: auto;
+}
+
+.mn{
+    overflow: hidden;
+    position: absolute; 
+    left: 3%; 
+    top: 11vw; 
+    font-size: 1vw;
+    font-family: Gotham;
+    text-transform: uppercase;
+}
+
+.mn .icon {
+    font-size: 3vw;
+    display: none;
+}
+
+.mn a{
+    display: block;
+    margin: 2vw;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 0.28vw;
+}
+
+@media screen and (max-width: 900px) {
+    .mn a {display: none;}
+    .mn a.icon {
+      float: left;
+      display: block;
+    }
+}
+.sidenav {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: white; 
+    overflow-x: hidden; 
+    padding-top: 50px;
+    transition: 0.5s; 
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Gotham;
+    font-size: 2vw;
+    color: gray;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: black;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-size: 3vw;
+    margin-left: 50px;
+  }
+
+
+.center-text-1{
+    font-size: 4.7vw;
+    font-family: Gotham;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: absolute;
+    margin-top: -31%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 0.45vw;
+}
+.container-2{
+    width: 100%;
+    display: flex;
+}
+
+.bg-2{
+    display: block;
+    width: 50%;
+    height: 50vw;
+    background-image: url("assets/img/bg-2-1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+.bg-3{
+    display: block;
+    width: 50%;
+    height: 50vw;
+    background-image: url("assets/img/bg-2-2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bg-2 img{
+    visibility: hidden;
+    width: 100%;
+    height: auto;
+}
+.bg-3 img{
+    visibility: hidden;
+    width: 100%;
+    height: auto;
+}
+.center-text-2{
+    color: white;
+    font-size: 3.46vw;
+    font-family: Gotham;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: -50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: -1px;
+}
+
+.text-hg{
+    font-size: 4.85vw;
+}
+
+.text-med{
+    font-size: 2.5vw;
+}
+
+.center-text-3{
+    color: white;
+    font-size: 3.46vw;
+    font-family: Gotham;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -50%;
+    transform: translate(0, -50%);
+    letter-spacing: -1px;
+}
+@media screen and (max-width: 900px) {
+    .container-2{
+        flex-wrap: wrap;
+    }
+    .bg-2 {
+        width: 100%;
+        height: 100vw;
+    }
+    .bg-3 {
+        width: 100%;
+        height: 100vw;
+    }
+    .center-text-2{
+        font-size: 4.5vw;
+        margin-top: -50%;
+        margin-left: 55%;
+        letter-spacing: -1px;
+    }
+    .text-hg{
+        font-size: 6vw;
+    }
+    
+    .text-med{
+        font-size: 4vw;
+    }
+}
+.container-3{
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+.text-small{
+    padding: 1vw;
+    color: black;
+    display: inline-block;
+    font-family: Gotham;
+    font-size: 1vw;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+@media screen and (max-width: 900px) {
+    .text-small{
+        font-size: 1.5vw;
+    }
+}
+.container-4{
+    display: flex;
+}
+
+.bg-4{
+    max-width: 20%;
+    height: auto;
+    background-image: url("assets/img/bg-3-1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bg-4 img{
+    visibility: hidden;
+    width: 100%;
+    height: auto;
+}
+
+.bg-5{
+    max-width: 20%;
+    height: auto;
+    background-image: url("assets/img/bg-3-2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bg-5 img{
+    visibility: hidden;
+    width: 100%;
+    height: auto;
+}
+
+.bg-6{
+    max-width: 20%;
+    height: auto;
+    background-image: url("assets/img/bg-3-3.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bg-6 img{
+    visibility: hidden;
+    width: 100%;
+    height: auto;
+}
+
+.bg-7{
+    max-width: 20%;
+    height: auto;
+    background-image: url("assets/img/bg-3-4.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bg-7 img{
+    visibility: hidden;
+    width: 100%;
+    height: auto;
+}
+
+.bg-8{
+    max-width: 20%;
+    height: auto;
+    background-image: url("assets/img/bg-3-5.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bg-8 img{
+    visibility: hidden;
+    width: 100%;
+    height: auto;
+}
+
+.container-5{
+    display: flex;
+    color: black;
+    font-family: Gotham;
+    font-size: 1vw;
+    text-transform: uppercase;
+    margin-top: 2vw;
+}
+
+.search-bar{
+    display: flex;
+}
+
+.container-5 p{
+    margin-left: 7%;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+input {
+    margin-left: 7%;
+    border: 0.7px solid black;
+    border-radius: 0;
+    height: 20px;
+    width: 30vw;
+}
+
+.btn {
+    background-color: black;
+    border-radius: 0;
+    color: white;
+    font-family: Gotham;
+    font-weight: bold;
+    font-size: 1vw;
+    text-transform: uppercase;
+    height: 23px;
+    width: 23px;
+    margin-left: 3px;
+    text-align: center;
+    line-height: 23px;
+}
+
+.social-media{
+    margin-top: 4px;
+    margin-left: 7%;
+}
+
+.social-media i{
+    font-size: 2vw;
+    margin: 9px;
+}
+
+.col-2{
+    margin-left: 40vw;
+    margin-top: 5px;
+}
+
+.tls{
+    color: black;
+    font-family: Gotham;
+    font-weight: bold;
+    font-size: 1vw;
+    text-transform: uppercase;
+    display: block;
+    margin: 0.7vw;
+    text-decoration: none;
+}
+
+.it{
+    color: black;
+    font-family: Gotham;
+    font-size: 0.8vw;
+    text-transform: capitalize;
+    display: block;
+    margin: 0.7vw;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+    .container-5{
+        font-size: 2.5vw;
+        flex-wrap: wrap;
+    }
+    .col-1{
+        width: 100%;
+    }
+    .container-5 p{
+        margin-left: 0;
+        text-align: center;
+    }
+    .search-bar{
+        margin-left: 50%;
+        transform: translate(-50%, 0);
+    }
+    .social-media{
+        font-size: 4vw;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 50%;
+        transform: translate(-50%, 0);
+    }
+    input{
+        margin-left: 0;
+        width: 60vw;
+    }
+    .btn{
+        width: 30px;
+    }
+    .col-2{
+        width: 100%;
+        margin: 0 0 0 0;
+    }
+    .tls{
+        font-size: 2.5vw;
+        text-align: center;
+    }
+    .it{
+        font-size: 2vw;
+        text-align: center;
+    }
+}
+
+footer{
+    margin: 4vw 0;
+    font-family: Gotham;
+    font-size: 0.6vw;
+    color: black;
+    width: 100%;
+}
+
+.container-6{
+    display: flex;
+    width: 50%;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.container-6 p{
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+.container-6 p+p  {
+    border-left: solid 1px black;
+}
+
+@media screen and (max-width: 900px) {
+    footer{
+        font-size: 1vw;
+    }
+    .container-6{
+        width: 90%;
+    }
+}
